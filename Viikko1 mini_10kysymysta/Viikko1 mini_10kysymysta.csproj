@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33538750-34F3-4A7A-8F7B-0891B71ADFC5}</ProjectGuid>
+    <ProjectGuid>{ACF5DB3E-3AD2-41AC-9817-587B356C3448}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Miniprojekti</RootNamespace>
-    <AssemblyName>Miniprojekti</AssemblyName>
+    <RootNamespace>Viikko1_mini_10kysymysta</RootNamespace>
+    <AssemblyName>Viikko1 mini_10kysymysta</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KyselyMoottori.cs" />
     <Compile Include="Kysymys.cs" />
-    <Compile Include="Kysymys2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Kysymykset.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

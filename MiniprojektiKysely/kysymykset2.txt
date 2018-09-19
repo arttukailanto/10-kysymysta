@@ -1,0 +1,60 @@
+.Kysymys1 Mitä operaattoria käytetään määrittämään muuttujien erisuuret numero arvot if lauseessa?
+	&&.
+	||.
+	==.
+	!=.
+**D
+.Kysymys2 Mikä/mitkä seuraavista väittämistä ovat totta liittyen olio-ohjelmointiin?
+	Luokan ilmentymä/instanssi ja olio ovat sama asia.
+	Olio ja luokka ovat sama asia.
+	Olioita luodaan new operaattorilla. 
+	Luokan ilmentymiä/instansseja luodaan new operaattorilla. 
+**ACD
+.Kysymys3 Mikä seuraavista väittämistä on epätosi.
+	.cs tiedoston nimi täytyy olla sama, kuin luokan nimi. 
+	Isoilla ja pienillä kirjaimilla on väliä C# kielessä. 
+	Kaikki lauseet loppuvat puolipilkkuun (;). 
+	Ohjelman suoritus alkaa Main metodista.
+**A
+.Kysymys4 Geneerisessä luokassa List<T>, T tilalle voidaan sijoittaa:
+	int 
+	string 
+	int[] 
+	Pool
+**ABD
+.Kysymys5 Mitä käytetään metodien nimeämisessä?
+	Pelkät pienet kirjaimet 
+	Upper Camel Case 
+	Pelkät isot kirjaimet 
+	Ei ole määritelty 
+**B
+.Kysymys6 Mikä silmukka (loop) on paras tilanteessa, jossa tiedät tarkalleen kuinka monta kertaa haluat iteroida  (ja tarvitset iteraattorimuuttujan)?
+	foreach 
+	for 
+	do/while 
+	while 
+**B
+.Kysymys7 Mikä silmukka (loop) on paras tilanteessa, jossa haluat käydä koodin läpi aina vähintään 1 kerran riippumatta ehdon pätevyydestä?
+	do/while 
+	for 
+	while 
+	foreach 
+**A
+.Kysymys8 Mikä silmukka (loop) on paras tilanteessa, jossa haluat tehdä jotakin jokaiselle listassa olevalle arvolle (etkä tarvitse iteraattorimuuttujaa)?
+	foreach 
+	while 
+	do/while 
+	for 
+**A
+.Kysymys9 Luokkien periytyminen(inheritance): Valitse vähintään yksi väittämä, joka on totta.
+	Yliluokkaa(base class) voi kutsua varatulla sanalla base.
+	Jos luokka X perii luokan Y, niin Y on silloin X luokan yliluokka(base class). 
+	Jos luokka X perii luokan Y, niin X on silloin Y luokan yliluokka(base class). 
+	Aliluokkaa(derived class) voi kutsua varatulla sanalla derived.
+**ABD
+.Kysymys10 Jotta metodia voidaan kutsua mistä tahansa luokasta, sen täytyy olla...
+	private 
+	void 
+	public 
+	static 
+**C 

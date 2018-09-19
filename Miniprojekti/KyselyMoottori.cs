@@ -9,7 +9,7 @@ namespace MiniprojektiKysely
 {
     class KyselyMoottori
     {
-        private List<Kysymys> Kysymykset { get; set; } = new List<Kysymys> { };
+        private List<Kysymys2> Kysymykset { get; set; } = new List<Kysymys2> { };
         public float Pisteet { get; set; }
         public int KysymystenMaara { get=> Kysymykset.Count;  }
 
@@ -24,13 +24,13 @@ namespace MiniprojektiKysely
             if (!File.Exists(tiedosto))
                 return false;
             string[] rivit = File.ReadAllLines(tiedosto);
-            Kysymys tempKysymys = null;
+            Kysymys2 tempKysymys = null;
             foreach (string rivi in rivit)
             {
                 if (rivi[0] == '.')
                 {
                     // on kysymys
-                    tempKysymys = new Kysymys(rivi.Substring(1).Trim());
+                    tempKysymys = new Kysymys2(rivi.Substring(1).Trim());
                 }
                 else if (rivi[0] == '\t')
                 {
@@ -66,11 +66,11 @@ namespace MiniprojektiKysely
             //return true; // onistuiko haku
         }
 
-        public Kysymys AnnaKysymys()
+        public Kysymys2 AnnaKysymys()
         {
             //Kysymys tempKysymys = Kysymykset[0];
             //Kysymykset.RemoveAt(0);
-            Kysymys tempKysymys;
+            Kysymys2 tempKysymys;
             int kysIndeksi = new Random().Next(0, Kysymykset.Count - 1);
             tempKysymys = Kysymykset[kysIndeksi];
             Kysymykset.RemoveAt(kysIndeksi);

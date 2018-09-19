@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace MiniprojektiKysely
 {
-    class Kysymys
+    class Kysymys2
     {
         public string KysymysTeksti { get; }
         public List<string> Vaihtoehdot { get; }
         public string Vastaus { get; set; }
 
-        public Kysymys(string kysymysTeksti, string[] vaihtoehdot, string vastaus)
+        public Kysymys2(string kysymysTeksti, string[] vaihtoehdot, string vastaus)
         {
             KysymysTeksti = kysymysTeksti;
             Vaihtoehdot = vaihtoehdot.ToList<string>();
             Vastaus = vastaus;
         }
-        public Kysymys(string kysymysTeksti)
+        public Kysymys2(string kysymysTeksti)
         {
             KysymysTeksti = kysymysTeksti;
             Vaihtoehdot = new List<string> { };

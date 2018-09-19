@@ -11,7 +11,7 @@ namespace Viikko1_mini_10kysymysta
     {
         static void Main(string[] args)
         {
-            Kysymys kysymys = new Kysymys();
+            Kysymys3 kysymys = new Kysymys3();
             string vastaus = "";
             int pisteet = 0;
             

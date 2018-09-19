@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using MiniprojektiKysely;
 using System.Linq;
+using Viikko1_mini_10kysymysta;
 
 namespace Miniprojekti
 {
@@ -16,7 +17,7 @@ namespace Miniprojekti
         }
         public static void Main(string[] args)
         {
-            Console.WriteLine("Mikä kysely aloitetaan? (1 / 2)");
+            Console.WriteLine("Mikä kysely aloitetaan? (1 / 2 / 3)");
             int kysNro = int.Parse(Console.ReadLine());
             switch (kysNro)
             {
@@ -147,6 +148,42 @@ namespace Miniprojekti
                         }
 
                         Console.ReadKey();
+                        break;
+
+                        
+                    }
+
+                case 3:
+                    {
+                        Kysymys3 kysymys3 = new Kysymys3();
+                        string vastaus = "";
+                        int pisteet = 0;
+
+
+
+                        for (int i = 0; i < 10; i++)
+                        {
+                            Console.WriteLine(kysymys3.KysyKysymys());
+                            Console.Write("Vastaus: ");
+
+                            vastaus = Console.ReadLine();
+
+                            if (vastaus == "k" || vastaus == "K")
+                            {
+                                pisteet++;
+                                Console.WriteLine("Oikea vastaus!");
+
+                            }
+
+                            else
+                            {
+                                Console.WriteLine("Vastaus väärin :( ");
+                            }
+
+                        }
+                        Console.WriteLine("Pistemääräsi on: " + pisteet);
+
+                        Console.ReadLine();
                         break;
                     }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Viikko1_mini_10kysymysta
 {
-    class Kysymys
+    class Kysymys3
     {
         private string kysymysTeksti;
         private List<String> vastausVaihtoehdot;
@@ -18,7 +18,7 @@ namespace Viikko1_mini_10kysymysta
 
         public string KysyKysymys()
         {
-            string[] kysymykset = File.ReadAllLines(@"C:\Users\Miika Chorin\source\\repos\Viikko1\Viikko1 mini_10kysymysta_sol\Viikko1 mini_10kysymysta\Kysymykset.txt");
+            string[] kysymykset = File.ReadAllLines(@"..\..\Kysymykset3.txt");
             
             Random r = new Random();
 

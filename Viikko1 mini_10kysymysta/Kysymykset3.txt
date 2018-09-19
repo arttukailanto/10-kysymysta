@@ -1,0 +1,10 @@
+﻿Onko maapallo pyöreä? *K
+Onko eka viikko ollut rankka? *K
+Tuleeko viikonloppu tarpeeseen? *K
+Sopiiko tulla käymään? *E
+Ollaanko yhdessä? *E
+Mennäänkö syömään? *K
+Tule tänne? *K
+Tuletko meille? *E
+Onko kivaa? *E
+Työlästä? *K
